@@ -1,4 +1,18 @@
 <?php
+/*
+.SYNOPSIS
+  Authenticate based on Active Directory Group and AD User
+
+.NOTES
+  Version:        1.0
+  Author:         Letalys
+  Creation Date:  05/10/2023
+  Purpose/Change: Initial script development
+.LINK
+    Author : Letalys (https://github.com/Letalys)
+
+*/
+
 //Get Windows User Credential
 $user_username = isset($_POST['user_username']) ? trim($_POST['user_username']) : '';
 $user_password = isset($_POST['user_password']) ? trim($_POST['user_password']) : '';
